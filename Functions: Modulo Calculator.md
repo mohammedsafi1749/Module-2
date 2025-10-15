@@ -13,16 +13,16 @@ To write a Python program that defines a function which accepts two values and r
 ## 🧾 Program
 
 
-def result(a, b):
+    def result(a, b):
 
-    modulo_value = a % b
-    return modulo_value
+        modulo_value = a % b
+        return modulo_value
 
-a=int(input())
+    a=int(input())
 
-b=int(input())
+    b=int(input())
 
-print("modulo is", result(a, b))
+    print("modulo is", result(a, b))
 
 ## Output
 
